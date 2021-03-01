@@ -1,0 +1,19 @@
+.checkout__banner {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.checkout__title {
+  padding: 20px;
+}
+
+.checkoutproduct__info1 {
+  margin-right: 10px;
+}
+
+.checkout__main {
+  display: flex;
+  padding: 15px;
+  flex: 0.3;
+  height: max-content;
+}

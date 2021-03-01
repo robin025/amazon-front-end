@@ -1,0 +1,86 @@
+.header {
+  background-color: rgb(22, 26, 31);
+  display: flex;
+  align-items: center; /*Always Use align items center when making responsive navbars and want to align 2-3 itms to center in a givern div */
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.header__logo {
+  object-fit: contain;
+  width: 120px;
+  cursor: pointer;
+
+  margin: 16px 10px 5px 25px;
+  height: auto;
+}
+
+.header__mainsearch {
+  display: flex;
+  flex: 0.8;
+}
+
+.header__searchicon {
+  background-color: #cd9042;
+  padding: 6px;
+  height: 28px !important;
+  margin-top: 1px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.header__search {
+  height: 18px;
+  padding: 10px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.header__options {
+  display: flex;
+  flex: 0.2;
+  justify-content: space-evenly;
+}
+
+.header__loginlink {
+  color: white;
+  text-decoration: none;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+}
+
+.headeroption__line1 {
+  color: rgb(201, 196, 196);
+}
+
+.headeroption__line2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header__option {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header__bacskey {
+  display: flex;
+  color: white;
+  /* flex-direction: column; */
+  /* font-size: 20px !important; */
+  align-items: center;
+}
+
+.header__bacskey > .MuiSvgIcon-root {
+  font-size: 35px;
+}
+
+.headeroptionbasket__count {
+  margin-left: 10px;
+  margin-right: 6px;
+}
